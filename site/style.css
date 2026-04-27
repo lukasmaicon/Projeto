@@ -1,0 +1,375 @@
+/* Variáveis de Cores */
+:root {
+  --bg: #ffffff;
+  --txt: #1a1a1a;
+  --brd: #222222;
+  --card: #fdfdfd;
+  --promo: #e67e22;
+  --map-bg: #f4ece4;
+}
+
+.dark-mode {
+  --bg: #000000;
+  --txt: #ffffff;
+  --brd: #ffffff;
+  --card: #0b0b0b;
+  --map-bg: #221a14;
+}
+
+/* Reset e Configurações Gerais */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background-color: var(--bg);
+  color: var(--txt);
+  transition:
+    background 0.3s,
+    color 0.3s;
+  overflow-x: hidden;
+}
+
+.full-wrapper {
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+  min-height: 100vh;
+  padding: 20px 4%;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Cabeçalho */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid var(--brd);
+  padding-bottom: 20px;
+  margin-bottom: 30px;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.brand {
+  flex: 1;
+  display: flex;
+  justify-content: flex-start;
+}
+.main-logo {
+  height: 60px;
+  width: auto;
+  max-width: 100%;
+  object-fit: contain;
+  border-radius: 10px;
+}
+
+.search-bar {
+  flex: 2;
+  display: flex;
+  justify-content: center;
+  min-width: 280px;
+}
+.search-bar input {
+  width: 100%;
+  max-width: 500px;
+  padding: 12px 25px;
+  border-radius: 30px;
+  border: 1px solid var(--brd);
+  background: transparent;
+  color: var(--txt);
+  outline: none;
+}
+
+.actions {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 15px;
+}
+.btn-theme {
+  background: var(--txt);
+  color: var(--bg);
+  border: none;
+  padding: 10px 18px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.2s;
+}
+
+/* Grid Principal */
+.layout-grid {
+  display: grid;
+  grid-template-columns: 280px 1fr;
+  gap: 40px;
+  flex: 1;
+}
+
+/* Sidebar e Categorias */
+.side-item {
+  margin-bottom: 35px;
+}
+.side-item h3 {
+  font-size: 0.8rem;
+  letter-spacing: 2px;
+  margin-bottom: 15px;
+  border-bottom: 1px solid var(--brd);
+  padding-bottom: 5px;
+  text-transform: uppercase;
+}
+
+.category-list {
+  list-style: none;
+}
+.category-list li {
+  padding: 12px 0;
+  border-bottom: 1px solid var(--brd);
+  cursor: pointer;
+  transition: 0.3s;
+}
+.category-list li:hover {
+  padding-left: 10px;
+  color: var(--promo);
+}
+
+/* Promoção e Animação */
+.promo-card {
+  border: 2px dashed var(--brd);
+  padding: 25px;
+  text-align: center;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  position: relative;
+  background: var(--card);
+}
+
+.promo-card:hover {
+  animation-play-state: paused;
+  border: 2px solid var(--promo) !important;
+  box-shadow: 0 0 15px rgba(230, 126, 34, 0.4);
+  transform: scale(1.05);
+}
+
+.promo-highlight {
+  color: var(--promo);
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+
+@keyframes pulse {
+  0%,
+  100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.03);
+  }
+}
+.pulse-effect {
+  animation: pulse 2s infinite ease-in-out;
+}
+
+/* Mapa Estilizado - CORREÇÃO DE COR AQUI */
+.map-box {
+  width: 100%;
+  height: 180px;
+  background: var(--map-bg);
+  border: 1px solid var(--brd);
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+  background-image: radial-gradient(var(--brd) 0.5px, transparent 0.5px);
+  background-size: 20px 20px;
+}
+
+.map-content {
+  background: var(--card);
+  padding: 15px;
+  border: 1px solid var(--brd);
+  border-radius: 4px;
+  box-shadow: 4px 4px 0px var(--brd);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  z-index: 2;
+}
+
+.map-pin {
+  font-size: 1.2rem;
+  margin-bottom: 5px;
+}
+
+.map-info {
+  text-align: center;
+}
+
+/* AJUSTE FINAL: O texto agora segue a variável de cor do tema */
+.map-info strong {
+  display: block;
+  font-size: 0.9rem;
+  color: var(--txt);
+}
+
+.map-info p {
+  font-size: 0.75rem;
+  color: var(--txt);
+  opacity: 0.7;
+}
+
+/* Vitrine e Cards */
+.gallery {
+  flex: 1;
+}
+.gallery-header h2 {
+  margin-bottom: 20px;
+  border-left: 5px solid var(--promo);
+  padding-left: 15px;
+}
+
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  border: 1px solid var(--brd);
+  padding: 15px;
+  background: var(--card);
+  transition: 0.3s;
+  display: flex;
+  flex-direction: column;
+  border-radius: 4px;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+.img-holder {
+  width: 100%;
+  height: 180px;
+  background: #eee;
+  margin-bottom: 15px;
+  overflow: hidden;
+  border: 1px solid var(--brd);
+  border-radius: 4px;
+}
+
+.img-holder img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.price {
+  display: block;
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin: 10px 0;
+  color: var(--promo);
+}
+
+.card-buttons {
+  display: flex;
+  gap: 8px;
+  width: 100%;
+  margin-top: auto;
+}
+
+.buy-btn {
+  flex: 1;
+  padding: 10px;
+  background: transparent;
+  color: var(--txt);
+  border: 1px solid var(--brd);
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.2s;
+}
+
+.buy-btn:hover {
+  background: var(--txt);
+  color: var(--bg);
+}
+
+.btn-add {
+  width: 45px;
+  background: var(--promo);
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 1.4rem;
+  font-weight: bold;
+  border-radius: 4px;
+  transition: 0.2s;
+}
+
+/* Rodapé */
+.footer {
+  margin-top: 50px;
+  padding: 40px 20px;
+  border-top: 2px solid var(--brd);
+  text-align: center;
+}
+.admin-area {
+  margin-bottom: 25px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid var(--brd);
+}
+.btn-admin {
+  background-color: var(--promo);
+  color: white;
+  border: none;
+  padding: 8px 15px;
+  margin: 5px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+
+/* Responsividade */
+@media (max-width: 1024px) {
+  .layout-grid {
+    grid-template-columns: 1fr;
+  }
+  .sidebar {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+  .side-item:last-child {
+    grid-column: span 2;
+  }
+}
+
+@media (max-width: 700px) {
+  .header {
+    flex-direction: column;
+    text-align: center;
+  }
+  .brand,
+  .search-bar,
+  .actions {
+    width: 100%;
+    justify-content: center;
+  }
+  .sidebar {
+    grid-template-columns: 1fr;
+  }
+  .side-item:last-child {
+    grid-column: span 1;
+  }
+}
