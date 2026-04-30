@@ -1,26 +1,44 @@
-# 🌵 Trabalho Raízes do Nordeste
+#  Raízes do Nordeste - Catálogo Interativo
 
-Este trabalho é um catálogo interativo desenvolvido como parte do **Projeto Multidisciplinar** do curso de Análise e Desenvolvimento de Sistemas (ADS). O foco foi aplicar conceitos de Front-End, UX (Experiência do Usuário) e boas práticas de desenvolvimento.
+Este projeto é uma plataforma institucional e catálogo interativo desenvolvido como **Trabalho Prático Multidisciplinar** para o curso de **Análise e Desenvolvimento de Sistemas (ADS) na Uninter**. O objetivo foi unir a valorização da cultura regional com tecnologias modernas de desenvolvimento Web.
 
-## 🚀 Tecnologias Utilizadas
-* **HTML5:** Estrutura semântica.
-* **CSS3:** Layout responsivo e estilização customizada.
-* **JavaScript (Vanilla):** Lógica de troca de tema e funcionalidades interativas.
+> **🎨 Diferencial:** Todo o design, layout e experiência do usuário (UI/UX) foram criados de forma **autoral**, focando em uma interface intuitiva e visualmente atraente.
 
-## 📋 Funcionalidades
-* **Modo Escuro (Dark Mode):** Alternância dinâmica de cores com persistência no navegador (Local Storage).
-* **Cópia de Cupons:** Sistema simples para copiar códigos promocionais via Clipboard API.
-* **Layout Responsivo:** O site se adapta a diferentes tamanhos de tela.
-* **Acessibilidade:** Uso de cores com bom contraste e tags semânticas.
+## 💻 Tecnologias & Performance
+*   **HTML5 Semântico:** Estruturação focada em SEO e acessibilidade.
+*   **CSS3 Moderno:** Implementação de layout responsivo (Mobile First) e estilização customizada.
+*   **JavaScript (Vanilla):** Manipulação de DOM para interatividade e persistência de dados simples.
 
-## 🛡️ LGPD e Privacidade
-O sistema foi desenvolvido seguindo as diretrizes da Lei Geral de Proteção de Dados:
-- **Tratamento Minimalista:** Não há coleta de dados sensíveis.
-- **Armazenamento Local:** Preferências de tema são salvas localmente no navegador, sem uso de servidores externos.
-
-## 🛠️ Como rodar o projeto
-1. Faça o download ou clone este repositório.
-2. Abra o arquivo `index.html` em qualquer navegador moderno.
+## ⚙️ Funcionalidades em Destaque
+*   **🌓 Dark Mode Inteligente:** Alternância de tema com persistência via *LocalStorage*.
+*   **📋 Clipboard API:** Sistema funcional para cópia de cupons promocionais.
+*   **📱 Design Responsivo:** Interface totalmente adaptável para smartphones e desktops.
 
 ---
+
+#  Raízes do Nordeste - Interactive Catalog
+
+This project is an institutional platform and interactive catalog developed as a **Multidisciplinary Practical Work** for the **Analysis and Systems Development (ADS) degree at Uninter**. The goal was to combine regional culture with modern Web development technologies.
+
+> **🎨 Highlight:** The entire design, layout, and user experience (UI/UX) were **authorially created**, focusing on an intuitive and visually appealing interface.
+
+## 💻 Technologies & Performance
+*   **Semantic HTML5:** Structure focused on SEO and accessibility.
+*   **Modern CSS3:** Responsive layout (Mobile First) and custom styling.
+*   **JavaScript (Vanilla):** DOM manipulation for interactivity and simple data persistence.
+
+## ⚙️ Featured Features
+*   **🌓 Smart Dark Mode:** Theme switching with persistence via *LocalStorage*.
+*   **📋 Clipboard API:** Functional system for copying promotional coupons with one click.
+*   **📱 Responsive Design:** Interface fully adaptable to smartphones, tablets, and desktops.
+
+---
+
+## 🚀 Como Visualizar / How to View
+Você pode conferir o projeto online através do GitHub Pages:
+👉 **[Acessar Raízes do Nordeste](https://lukasmaicon.github.io/Projeto/)**
+
+---
+
+*Estudante de ADS na Uninter | Front-end Developer & UI/UX*
 Desenvolvido **Lucas Maicon** </>
