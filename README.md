@@ -1,6 +1,6 @@
-#  Raízes do Nordeste - Catálogo Interativo
+#  Raízes do Nordeste 
 
-Este projeto é uma plataforma institucional e catálogo interativo desenvolvido como **Trabalho Prático Multidisciplinar** para o curso de **Análise e Desenvolvimento de Sistemas (ADS) na Uninter**. O objetivo foi unir a valorização da cultura regional com tecnologias modernas de desenvolvimento Web.
+Este projeto foi desenvolvido como **Trabalho Prático Multidisciplinar** para o curso de **Análise e Desenvolvimento de Sistemas (ADS) na Uninter**. O objetivo foi unir a valorização da cultura regional com tecnologias modernas de desenvolvimento Web.
 
 > **🎨 Diferencial:** Todo o design, layout e experiência do usuário (UI/UX) foram criados de forma **autoral**, focando em uma interface intuitiva e visualmente atraente.
 
@@ -18,7 +18,7 @@ Este projeto é uma plataforma institucional e catálogo interativo desenvolvido
 
 #  Raízes do Nordeste - Interactive Catalog
 
-This project is an institutional platform and interactive catalog developed as a **Multidisciplinary Practical Work** for the **Analysis and Systems Development (ADS) degree at Uninter**. The goal was to combine regional culture with modern Web development technologies.
+This project developed as a **Multidisciplinary Practical Work** for the **Analysis and Systems Development (ADS) degree at Uninter**. The goal was to combine regional culture with modern Web development technologies.
 
 > **🎨 Highlight:** The entire design, layout, and user experience (UI/UX) were **authorially created**, focusing on an intuitive and visually appealing interface.
 
