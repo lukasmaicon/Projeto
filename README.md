@@ -1,49 +1,49 @@
-# Raízes do Nordeste
+# Finans
 
 ---
 
 ### 🇧🇷 Português
 
-O **Raízes do Nordeste** foi desenvolvido como Trabalho Prático Multidisciplinar para o curso de Análise e Desenvolvimento de Sistemas (ADS) na Uninter. O objetivo foi unir a valorização da cultura regional com tecnologias modernas de desenvolvimento Web.
+O **Finans** é um projeto de landing page para uma plataforma de finanças pessoais, desenvolvido para praticar a implementação de layouts profissionais utilizando o framework Bootstrap. O foco principal foi criar uma interface limpa, confiável e totalmente adaptável a diferentes telas.
 
-Visualize o projeto online: lukasmaicon.github.io/Projeto/
+Visualize o projeto online: [https://lukasmaicon.github.io/Finans/](https://lukasmaicon.github.io/Finans/)
 
-### Desenvolvimento e Funcionalidades
+### Desenvolvimento e Estrutura
 
-Todo o design, layout e experiência do usuário (UI/UX) foram criados de forma autoral. Utilizo estas estratégias e recursos para:
+O projeto foi estruturado com foco em boas práticas de design responsivo e componentes robustos. Utilizo estas estratégias para:
 
-* **Dark Mode Inteligente:** Alternância de tema com persistência automática via LocalStorage.
-* **Clipboard API:** Sistema funcional para cópia de cupons promocionais com apenas um clique.
-* **Design Responsivo:** Interface estruturada em *Mobile First*, totalmente adaptável para smartphones e desktops.
+* **Layout Profissional:** Aplicação de conceitos de UI/UX voltados para o setor financeiro, transmitindo clareza e credibilidade.
+* **Responsividade Nativa:** Garantia de uma experiência de usuário fluida em smartphones, tablets e desktops através do sistema de grid.
+* **Organização de Código:** Código modular estruturado seguindo as melhores práticas do framework para facilitar a manutenção futura.
 
 ### Tecnologias
 
-* HTML5 Semântico (Estruturação focada em SEO e acessibilidade)
-* CSS3 Moderno (Responsividade e estilização customizada)
-* JavaScript / Vanilla (Manipulação de DOM e persistência de dados)
+* HTML5 (Estruturação semântica voltada para conversão)
+* CSS3 (Estilização personalizada para identidade visual)
+* Bootstrap (Componentes de navegação, tipografia e grid)
 * GitHub Pages (Hospedagem e Deploy)
 
 ---
 
 ### 🇺🇸 English
 
-**Raízes do Nordeste** was developed as a Multidisciplinary Practical Work for the Analysis and Systems Development (ADS) degree at Uninter. The goal was to combine regional culture with modern Web development technologies.
+**Finans** is a landing page project for a personal finance platform, developed to practice implementing professional layouts using the Bootstrap framework. The main focus was to create a clean, reliable, and fully adaptable interface across various screens.
 
-View the project live: lukasmaicon.github.io/Projeto/
+View the project live: [https://lukasmaicon.github.io/Finans/](https://lukasmaicon.github.io/Finans/)
 
-### Development and Features
+### Development and Structure
 
-The entire design, layout, and user experience (UI/UX) were authorially created. I leverage these strategies and features to:
+The project was structured focusing on responsive design best practices and robust components. I leverage these strategies to:
 
-* **Smart Dark Mode:** Theme switching with automatic persistence via LocalStorage.
-* **Clipboard API:** Functional system for copying promotional coupons with just one click.
-* **Responsive Design:** Interface structured in *Mobile First*, fully adaptable to smartphones, tablets, and desktops.
+* **Professional Layout:** Application of UI/UX concepts tailored for the financial sector, conveying clarity and credibility.
+* **Native Responsiveness:** Ensuring a fluid user experience across smartphones, tablets, and desktops using the grid system.
+* **Code Organization:** Structured code following the framework's best practices to ease future maintenance.
 
 ### Technologies
 
-* Semantic HTML5 (Structure focused on SEO and accessibility)
-* Modern CSS3 (Responsive layout and custom styling)
-* JavaScript / Vanilla (DOM manipulation and data persistence)
+* HTML5 (Semantic structuring focused on conversion)
+* CSS3 (Custom styling for brand identity)
+* Bootstrap (Navigation components, typography, and grid)
 * GitHub Pages (Hosting and Deploy)
 
 ---
